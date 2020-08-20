@@ -138,6 +138,10 @@ p {
   .intro .intro-text {
     width: 45%;
   }
+  
+  gallery .carousel-item {
+        height: 500px !important;
+  }
 }
 
 .cta {
@@ -217,6 +221,10 @@ p {
     width: 50%;
     font-size: 1.1rem;
   }
+    
+  .gallery .carousel-item {
+          height: 500px !important;
+  }
 }
 
 .address strong {
@@ -259,3 +267,5 @@ p {
      transition: 0.8s;
     -webkit-transition:  0.8s;
 }
+
+
