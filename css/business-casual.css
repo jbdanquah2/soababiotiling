@@ -266,4 +266,6 @@ p {
     -webkit-transition:  0.8s;
 }
 
-
+.carousel.carousel-fade .carousel-item {
+    transition: opacity ease-out .7s;
+}
