@@ -152,7 +152,7 @@ p {
 
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
+  padding: 0.5rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -178,6 +178,10 @@ p {
     margin-top: -5rem;
     position: relative;
     z-index: 1;
+  }
+
+  .cta .cta-inner {
+    padding: 3rem;
   }
 }
 
@@ -225,6 +229,10 @@ p {
   .gallery .carousel-item {
           height: 500px !important;
   }
+
+  #about {
+    padding: 50px!important;
+  }
 }
 
 .address strong {
@@ -269,3 +277,8 @@ p {
 .carousel.carousel-fade .carousel-item {
     transition: opacity ease-out .7s;
 }
+
+#about {
+  padding: 25px;
+}
+
