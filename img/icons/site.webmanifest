@@ -1,0 +1,27 @@
+{
+    "name": "Soababio",
+    "short_name": "Soababio",
+    "description": "Soababio Tiling Ltd - Where Quality Talks. We are excited for your visit to our site. Our clients are our greatest asset and so your satisfaction is our priority. Take a look at some of our works - we guarantee you value for money!",
+    "icons": [
+        {
+            "src": "/img/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "theme_color": "#00aba9",
+    "background_color": "#00aba9",
+    "display": "standalone",
+    "start_url": "index.html"
+}
