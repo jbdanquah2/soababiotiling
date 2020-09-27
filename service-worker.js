@@ -84,6 +84,6 @@ function resourceToCache() {
     'img/icons/favicon-16x16.png',
     'img/icons/favicon-32x32.png',
     'img/icons/mstile-150x150.png',
-    'img/icons/site.webmanifest'
+    'site.webmanifest'
   ];
 }

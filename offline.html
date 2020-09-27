@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
-    <link rel="manifest" href="/img/icons/site.webmanifest">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#00aba9">
     <link rel="shortcut icon" href="/img/icons/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="Soababio">
@@ -33,8 +33,35 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-lg-4" id="mainNav">
+        <div class="container">
+          <a aria-label="Soababio Logo" class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html"><img class="responsive mr-2" style="width: 110px; height: 50px;" src="img/edit/facebook_cover_photo_1~2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
     <div class="container">
-        <h2 class="m-5 bg-info">Your are offline... please check your internet connection</h2>
+        <h4 class="m-5 p-4 bg-white">Your are offline... please check your internet connection</h4>
     </div>
 
     <footer class="footer text-faded text-center py-5">
