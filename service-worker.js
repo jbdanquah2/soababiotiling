@@ -1,6 +1,6 @@
 let filesToCache = resourceToCache();
 
-const staticCacheName = 'soababio-v2';
+const staticCacheName = 'soababio-v3';
 
 self.addEventListener('install', event => {
   console.log('Attempting to install service worker and cache static assets');
